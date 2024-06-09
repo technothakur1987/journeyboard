@@ -1,0 +1,39 @@
+.blueArea
+{position: absolute;
+    margin-bottom: -20vh;
+    min-height: 30vh;
+    
+    right: 0;
+bottom: 0;}
+.blueArea ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.blueArea ul li{
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blueArea ul li div{
+    min-height: 85px;
+    min-width: 85px;
+    
+    background: #0029FF;
+
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+}
+.blueArea ul li div:hover{
+    cursor: pointer;
+}
+

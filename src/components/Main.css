@@ -1,0 +1,781 @@
+.main {
+  position: relative;
+
+  width: 100%;
+  padding-left: 11.25vw;
+  padding-right: 11.25vw;
+}
+.red {
+  background-color: red;
+}
+.HeadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+}
+.mainHeading {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(0, 41, 255, 1);
+}
+.submitBtn {
+  width: 121px;
+  height: 36px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  background: rgba(0, 41, 255, 1);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.submitBtn:hover {
+  background: rgba(0, 41, 255, 0.8);
+  cursor: pointer;
+}
+.exploreDiv {
+  background: rgba(233, 236, 239, 1);
+  height: 135px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+}
+.exploreDiv .heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 0.5rem;
+}
+.exploreDiv .para {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.threads {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.thread1,
+.thread2,
+.thread3,
+.thread4 {
+  flex-basis: 50%;
+
+  width: 480px;
+  height: 580px;
+
+  padding: 4vh;
+}
+.insideThread {
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(253, 253, 253, 1);
+}
+.blackInsideThread {
+  height: 50px;
+  border-radius: 15px 15px 0px 0px;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blackInsideThread p {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+}
+.h3wrapper {
+  padding: 1rem;
+}
+.insideThread h3 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: rgba(0, 0, 0, 1);
+}
+.h3Span {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.threadInfo {
+}
+.mb {
+  margin-bottom: 1.5rem;
+}
+.youtubeimage {
+  height: 291px;
+  width: 100%;
+}
+.arrowupdiv {
+  height: 40px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #feffc033;
+
+  display: flex;
+  align-items: center;
+  /*border: 0.1px solid rgba(0, 0, 0, 0.4)*/
+}
+.arrowupdiv:hover {
+  cursor: pointer;
+}
+.arrowupdiv span {
+  padding: 0 1.5rem;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+.arrowUp {
+  width: 15.98px;
+  height: 9.6px;
+}
+
+.arrowDown {
+  width: 15.98px;
+  height: 9.6px;
+  rotate: 180deg;
+}
+
+.subthreadrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.25rem;
+}
+.subthread {
+  width: 175px;
+  height: 95px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.05);
+}
+.subthread label {
+  min-height: 20px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.05);
+  padding-left: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: rgba(0, 0, 0, 1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.subthread textarea {
+  height: 75px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 0.75rem;
+  padding-top: 0.5rem;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  color: rgba(108, 117, 125, 1);
+}
+.belowsubthread {
+  width: 175px;
+  min-height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+#cat,
+#process {
+  width: 91px;
+  border-radius: 5px;
+  height: 32px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+}
+#cat:focus,
+#process:focus {
+  border: none;
+  outline: none;
+}
+
+.iconbelowsubthread {
+  width: 175px;
+  min-height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.threadiconWrapper {
+  width: 117.49px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.threadicon:hover {
+  /* width: 14.78px;
+    height: 20px; */
+  cursor: pointer;
+}
+.custompadding {
+  padding: 0 1.25rem;
+}
+.subthreadbtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.25rem 1.25rem;
+}
+.subthreadbtnWrapper button {
+  background-color: rgba(0, 41, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.06px;
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 97px;
+  height: 36px;
+}
+.subthreadbtnWrapper button:hover {
+  background: rgba(0, 41, 255, 0.8);
+  cursor: pointer;
+}
+.endsubthreadWrapper {
+  padding: 0 1.25rem;
+}
+
+.endsubthread {
+  width: 100%;
+  height: 95px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.05);
+}
+.endsubthread label {
+  min-height: 20px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.05);
+  padding-left: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: rgba(0, 0, 0, 1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.endsubthread textarea {
+  height: 75px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 0.75rem;
+  padding-top: 0.5rem;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  color: rgba(108, 117, 125, 1);
+}
+
+.thread3Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.thread3title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 1.5rem;
+}
+.thread3title label {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 1rem;
+}
+.thread3title input {
+  height: 43px;
+  border-radius: 5px;
+  background: rgba(252, 251, 251, 1);
+  box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  outline: none;
+  padding-left: 0.75rem;
+  padding-top: 0.5rem;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  color: rgba(108, 117, 125, 1);
+}
+
+.thread3content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 1.5rem;
+}
+.thread3content p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+.thread3ContentBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contentmenu {
+  height: 82px;
+  border-radius: 5px 5px 0 0;
+  background: rgba(252, 251, 251, 1);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contentmenu .ul1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(97, 97, 97, 1);
+}
+.ul2 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ul2 image {
+  height: 19px;
+  width: 19px;
+}
+.ul1 li:hover {
+  cursor: pointer;
+}
+.ul2 li:hover {
+  cursor: pointer;
+}
+.parali {
+  background: rgba(235, 235, 235, 1);
+  width: 102px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(97, 97, 97, 1);
+}
+.invisible {
+  visibility: hidden;
+}
+.contentText {
+  height: 142px;
+  background: rgba(252, 251, 251, 1);
+  box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.15);
+}
+.contentthreedots {
+  rotate: 90deg;
+}
+
+.arrowupdiv4 {
+  height: 40px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* background-image: url('../assets/threadA.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+  display: flex;
+  align-items: center;
+  /*border: 0.1px solid rgba(0, 0, 0, 0.4);*/
+  background: #f2f2f2;
+}
+.arrowupdiv4 :hover {
+  cursor: pointer;
+}
+
+.arrowupdiv4 span {
+  padding: 0 1.5rem;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+.arrowUp {
+  width: 15.98px;
+  height: 9.6px;
+}
+.threadInfo4 {
+  padding: 0 1.5rem;
+}
+.p41 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.p42 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #606161;
+  float: right;
+  margin-top: -5vh;
+}
+.p42:hover {
+  cursor: pointer;
+}
+.arrowupdiv5 {
+  height: 40px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* background-image: url('../assets/threadA.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+  display: flex;
+  align-items: center;
+  /*border: 0.1px solid rgba(0, 0, 0, 0.4);*/
+  background: #f2f2f2;
+}
+
+.arrowupdiv5 span {
+  padding: 0 1.5rem;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+.examplediv4 {
+  background: #fcfcfc;
+  border: 1px solid #d9d7d7;
+  margin-left: 1.5rem;
+}
+.exp41 {
+}
+
+/*MediaQuesries */
+
+@media only screen and (max-width: 1024px) {
+    .mdpad0{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .blackDiv {
+        width: 115px!important;}
+        .menuNav {
+            width: 115px!important;}
+
+
+}
+@media only screen and (max-width: 992px) {
+  .logoimage {
+    position: absolute;
+    width: 6.5rem;
+    height: 1.75rem;
+    top: 2.25rem;
+    left: 5.76vw;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .ladyIcon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 33px;
+    left: 82vw;
+  }
+  .bellLogo {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 33px;
+    left: 73vw;
+  }
+  .toolsLogo {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 33px;
+    left: 64vw;
+  }
+  .homeIcon {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 33px;
+    left: 55vw;
+  }
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  #root {
+    width: 100vw;
+  }
+  .main {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+  }
+  .exploreDiv {
+    min-height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+  }
+  .thread1,
+  .thread2,
+  .thread3,
+  .thread4 {
+    flex-basis: 100%;
+    width: 100%;
+    height: 580px;
+    padding: 0;
+    margin-bottom: 3vh;
+  }
+  .youtubeimage {
+    height: 400px;
+    width: 100%;
+}
+.subthreadrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.25rem 1.25rem;
+}
+.blackDiv {
+    width: 2.25rem !important;
+  }
+  .menuNav {
+    width: 2.25rem !important;
+  }
+  .openDiv {
+    width: 2rem !important;
+    height: 53px !important;
+  }
+  .noticeBoard {
+    width: 2.9rem!important;
+  }
+  .noticeblack{
+    width: 100%!important;
+  }
+  .largeblackDiv,.largemenuNav  {
+    width: 343px!important;}
+    .blueArea {
+        position: absolute;
+        margin-bottom: 0vh!important;
+        min-height: 15vh!important;
+        right:2vw;
+        bottom: 0;
+    }
+    .blueArea ul li div {
+        min-height: 12px!important;
+        min-width: 12px!important;
+        padding: 0.5rem!important;
+       margin-bottom: 0.75rem!important;
+        margin-right: 2vw!important;
+    }
+}
+
+@media only screen and (max-width: 767.97px) {
+  .logoimage {
+    position: absolute;
+    width: 6.5rem;
+    height: 1.75rem;
+    top: 2.25rem;
+    left: 5.76vw;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .ladyIcon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 33px;
+    left: 82vw;
+  }
+  .bellLogo {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 33px;
+    left: 73vw;
+  }
+  .toolsLogo {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 33px;
+    left: 64vw;
+  }
+  .homeIcon {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 33px;
+    left: 55vw;
+  }
+  .main {
+    padding-left: 5vw;
+    padding-right:5vw;
+    
+  }
+  .exploreDiv {
+    min-height: 25vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+  }
+  .thread1,
+  .thread2,
+  .thread3,
+  .thread4 {
+    flex-basis: 100%;
+    width: 480px;
+    height: 580px;
+    padding: 0;
+    margin-bottom: 3vh;
+  }
+  .subthread {
+    width: 135px!important;}
+  .blackDiv {
+    width: 5vw !important;
+  }
+  .menuNav {
+    width: 5vw !important;
+  }
+  .openDiv {
+    width: 5vw!important;
+    height: 30px !important;
+    font-size: 10px;
+  }
+  .noticeBoard {
+    width: 2.5rem!important;
+  }
+  .noticeblack{
+    width: 100%!important;
+  }
+  .largeblackDiv,.largemenuNav  {
+    width: 343px!important;}
+    
+    .iconbelowsubthread {
+        width:100px;}
+        #cat, #process {
+            width: 75px;}
+            .blueArea {
+                position: absolute;
+                margin-bottom: 0vh!important;
+                min-height: 15vh!important;
+                right:1vw;
+                bottom: 0;
+            }
+            .blueArea ul li div {
+                min-height: 18px!important;
+                min-width: 18px!important;
+                padding: 0.5rem!important;
+               margin-bottom: 0.75rem!important;
+                margin-right: 0rem!important;
+            }
+}
