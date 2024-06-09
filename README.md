@@ -16,4 +16,4 @@ server will run on http://localhost:5173/
 
 Git hub link :https://github.com/technothakur1987/journeyboard.git
 
-Live Link is : 
+Live Link is : https://journeypage.netlify.app/
